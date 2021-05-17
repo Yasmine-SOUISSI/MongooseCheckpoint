@@ -2,7 +2,6 @@ const express = require("express");
 const app = express();
 const connectDB = require("./config/connectDB");
 
-const person = require("./Models/person");
 const Person = require("./Models/person");
 app.use(express.json());
 connectDB();

@@ -5,7 +5,7 @@ const person = require("../models/person");
 
 //test
 router.get("/test", (req, res) => {
-    //  /api/contacts/test
+    
     res.send("this is test");
 });
 
